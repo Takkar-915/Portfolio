@@ -7,6 +7,18 @@
   font-size: 18px;
 }
 
+.title{
+  text-align: center;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.sub-title{
+  font-family: 'Noto Serif JP', sans-serif;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* ヘッダー */
 header{
   display: flex;
 
@@ -27,7 +39,6 @@ header .logo h3{
   font-family: 'Noto Serif JP', sans-serif;
 }
 
-/* bootstrapの余白を無効化 */
 nav ul{
   margin: 0;
   padding:0;
@@ -49,140 +60,11 @@ nav ul li a:hover{
   color: green;
 }
 
-
-/* ホームページ */
-.title{
-  text-align: center;
-  font-family: 'Noto Serif JP', sans-serif;
-}
-
-.sub-title{
-  font-family: 'Noto Serif JP', sans-serif;
-  margin-bottom: 32px;
-}
-
-.about-me{
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-
-.profile {
-  text-align: justify;
-  background: #FFF;
-  width: 80%;
-  max-width: 800px;
-  padding: 5rem;
-  margin: 0 auto;
-  margin-top: 50px;
-  border: 2px solid #1a1a1a;
-  /* border-radius: 100%; */
-  
-}
-
-.profile__img {
-  display: block;
-  width: 320px;
-  height: 240px;
-  border-radius:50%;
-  margin: 0 auto;
-}
-
-.profile__name {
-  text-align:center;
-  font-weight:bold;
-  font-size:1.2rem;
-  margin: 1rem auto 1rem;
-  letter-spacing:.1rem;
-}
-
-.profile__desc {
-  line-height:2.4rem;
-}
-
-
-.career{
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 500px;
-  margin-bottom: 100px;
-}
-
-.timeline {
-  margin-top: 50px;
-  list-style: none;
-  /* font-size: 16px; */
-}
-.timeline > li {
-  margin-bottom: 100px;
-}
-
-@media ( min-width : 640px ){
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-    margin-bottom: 100px;
-  }
-
-  .timeline-date {
-    width: 110px;
-    float: left;
-    margin-top: 20px;
-  }
-  .timeline-content {
-    width: 75%;
-    float: left;
-    border-left: 3px #e5e5d1 solid;
-    padding-left: 30px;
-  }
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
-    position: absolute;
-    left: 106px;
-    top: 24px;
-    border-radius: 100%;
-  }
-}
-
-.about-certification{
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
-.certification{
-  text-align: justify; 
-  background: #FFF;
-  width: 100%;
-  max-width: 800px;
-  /* padding: 5rem;
-  margin: 0 auto;
-  margin-top: 50px;
-  border: 2px solid #1a1a1a;  */
-}
-
-.certification li{
-  margin-bottom: 16px;
-}
-
-.done{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* padding-bottom: 50px; */
-}
-
-.will{
-  margin-bottom: 50px;
-}
-
+/*フッター */
 footer {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 40px; 
   background-color: #dfedfd; 

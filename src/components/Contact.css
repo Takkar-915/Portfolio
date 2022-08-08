@@ -1,0 +1,26 @@
+/* Contact! */
+
+.contact{
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .sns_list{
+    padding: 12px;
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sns_img{
+    width: 30px;
+    margin: 8px;
+  }
+  
+  .about_email{
+    margin-top: 100px;
+  }
+
+  .email_address{
+    text-align: center;
+  }
